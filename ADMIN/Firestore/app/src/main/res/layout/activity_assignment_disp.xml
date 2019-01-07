@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssignmentDisp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assignments"
+        android:id="@+id/txtview_hw"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@+id/txtview_hw"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hw_title"
+        android:hint="Title: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/txtview_hw"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textSize="18sp"
+        android:id="@+id/Asgn_Title"
+        android:layout_below="@id/txtview_hw"
+        android:layout_toEndOf="@id/hw_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hw_subject"
+        android:hint="Subject: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/hw_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:textSize="18sp"
+        android:id="@+id/Asgn_Subject"
+        android:layout_below="@id/Asgn_Title"
+        android:layout_toEndOf="@id/hw_subject"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hw_teacher"
+        android:hint="Teacher: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/hw_subject"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Teacher"
+        android:textSize="18sp"
+        android:id="@+id/Asgn_Teacher"
+        android:layout_below="@id/Asgn_Subject"
+        android:layout_toEndOf="@id/hw_teacher"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hw_deadline"
+        android:hint="Deadline:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/hw_teacher"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Deadline"
+        android:textSize="18sp"
+        android:id="@+id/Asgn_Deadline"
+        android:layout_below="@id/Asgn_Teacher"
+        android:layout_toEndOf="@id/hw_subject"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hw_desc"
+        android:textSize="18sp"
+        android:hint="Description: "
+        android:textStyle="bold"
+        android:layout_below="@id/hw_deadline"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Asgn_Desc"
+        android:textSize="18sp"
+        android:hint="Description"
+        android:layout_below="@id/hw_desc"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="100dp"
+        />
+
+
+
+    
+</RelativeLayout>

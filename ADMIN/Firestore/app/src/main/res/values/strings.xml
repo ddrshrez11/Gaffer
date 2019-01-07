@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GAFFER-ADMIN</string>
+    <!-- Dialog/Fragment names -->
+    <string name="dialog_new_note">New Notice Dialog</string>
+
+    <!-- Strings -->
+    <string name="note_title">Title</string>
+    <string name="note_content">Content</string>
+</resources>

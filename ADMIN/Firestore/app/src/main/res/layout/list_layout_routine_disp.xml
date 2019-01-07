@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:id="@+id/ViewRoutineSubs"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+
+            android:id="@+id/textSubject1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject1"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/Time1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:00 to 11:00"
+            android:textSize="20sp"
+            android:layout_marginLeft="100dp"
+            android:paddingRight="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <TextView
+
+    android:id="@+id/textSubject2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject2"
+    android:textSize="30sp"
+    />
+
+    <TextView
+    android:id="@+id/Time2"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="9:00 to 11:00"
+    android:textSize="20sp"
+    android:layout_marginLeft="100dp"
+    android:paddingRight="10dp"
+    />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <TextView
+
+    android:id="@+id/textSubject3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject3"
+    android:textSize="30sp"
+    />
+
+    <TextView
+    android:id="@+id/Time3"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="9:00 to 11:00"
+    android:textSize="20sp"
+    android:layout_marginLeft="100dp"
+    android:paddingRight="10dp"
+    />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <TextView
+
+    android:id="@+id/textSubject4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject4"
+    android:textSize="30sp"
+    />
+
+    <TextView
+    android:id="@+id/Time4"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="9:00 to 11:00"
+    android:textSize="20sp"
+    android:layout_marginLeft="100dp"
+    android:paddingRight="10dp"
+    />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <TextView
+
+    android:id="@+id/textSubject5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subject5"
+    android:textSize="30sp"
+    />
+
+    <TextView
+    android:id="@+id/Time5"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="9:00 to 11:00"
+    android:textSize="20sp"
+    android:layout_marginLeft="100dp"
+    android:paddingRight="10dp"
+    />
+
+    </LinearLayout>
+
+</LinearLayout>

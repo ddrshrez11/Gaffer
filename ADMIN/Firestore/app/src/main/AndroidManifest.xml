@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dell.firestore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Routine">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".RoutineDisp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Routine" />
+        </activity>
+        <activity android:name=".Notice">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".NoticeDisp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Notice" />
+        </activity>
+        <activity android:name=".create_notice" />
+        <activity android:name=".create_assignment" />
+        <activity android:name=".EditRoutine" />
+        <activity android:name=".adminGaffer" />
+        <activity android:name=".firebaseauth" />
+        <activity android:name=".verification">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ToDoList">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".Assignment" />
+        <activity android:name=".Calender">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".Calender_AddEvent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Calender" />
+        </activity>
+        <activity android:name=".Calender_DayView">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Calender" />
+        </activity>
+        <activity android:name=".Reset" />
+        <activity android:name=".AssignmentDisp"></activity>
+        <activity android:name=".editRoutine1"></activity>
+    </application>
+
+</manifest>

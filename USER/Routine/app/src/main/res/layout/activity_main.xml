@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+
+        <Button
+            android:background="@mipmap/ic_calender"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/Calender"/>
+        <Button
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/ic_homework"
+            android:layout_width="110dp"
+            android:layout_height="96dp"
+            android:id="@+id/Assignments"/>
+        <Button
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/ic_todo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/ToDO"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_toRightOf="@+id/L1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Notice"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/ic_notices" />
+        <Button
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/ic_schedule"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/ViewRoutine"/>
+        <Button
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/ic_settings"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/Settings"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

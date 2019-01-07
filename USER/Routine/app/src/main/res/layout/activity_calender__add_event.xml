@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignLeft="@+id/descriptionicon"
+    android:layout_alignParentTop="true"
+    android:layout_alignStart="@+id/descriptionicon"
+    tools:context=".Calender_AddEvent">
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Add Title"
+        tools:ignore="InvalidId" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/location"
+        android:hint="Location" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_marginVertical="55dp"
+        android:src="@drawable/ic_add_location_black_24dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/descriptionicon"
+
+        android:layout_below="@+id/editText"
+        android:hint="Description" />
+
+    <ImageView
+        android:id="@+id/descriptionicon"
+        android:layout_width="30dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/editText"
+        android:layout_toLeftOf="@+id/description"
+        android:layout_toStartOf="@+id/description"
+        android:src="@drawable/ic_description_black_24dp" />
+
+
+</RelativeLayout>
